@@ -1,10 +1,12 @@
-import { UserButton } from "@clerk/nextjs";
+// import { UserButton } from "@clerk/nextjs";
 import Link from "next/link";
+import NavBar from "./components/NavBar";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-base-100 to-base-200">
-      <UserButton />
+      {/* <UserButton /> */}
+	  <NavBar/>
       <div className="hero min-h-screen">
         <div className="hero-content text-center">
           <div className="max-w-4xl">
